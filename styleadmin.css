@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center items vertically */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and text */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack title and tagline vertically */
+}
+
+.title {
+    font-size: 36px; /* Large font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark color for the title */
+    margin: 0; /* Remove default margin */
+}
+
+.tagline {
+    font-size: 18px; /* Smaller font size for the tagline */
+    color: #666; /* Lighter color for the tagline */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Align to the right */
+}
+
+.nav-buttons button {
+    background-color: #267fc4; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the button */
+    margin-left: 10px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+.nav-buttons button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.visuals {
+    margin: 100px 20px 20px; /* Margin to position below the header */
+}
+
+.chart-placeholder {
+    text-align: center; /* Center the chart and text */
+}
+
+.chart-placeholder img {
+    width: 80%; /* Responsive width for the chart */
+    max-width: 600px; /* Maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Optional border for the placeholder */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.visuals h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.contact-info {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+    position: relative; /* Position relative to allow absolute positioning of other elements */
+}
+
+.nav-button {
+    padding: 10px 20px; /* Adjust padding for normal size */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
